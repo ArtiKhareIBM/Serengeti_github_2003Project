@@ -8,7 +8,27 @@ packages:
   gitUsername: ArtiKhareIBM
   gitBranch: main
 - name: ISRepoUnderProject
+  version: "1.0"
   gitServerName: RAHS_Azure_Account
   gitUrl: https://dev.azure.com/rahs/AzureRepoWorkProject/_git
   gitUsername: rahs
   gitBranch: master
+services:
+- serviceName: project.serengeti_github_2003.integrations:githubrepo_azurepackage
+  packages:
+  - name: Serengeti_github_2003Project
+    version: "1.0"
+  - name: ISRepoUnderProject
+    version: "1.0"
+- serviceName: TestWIE1344.services:addInt
+  packages:
+  - name: ISRepoUnderProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
