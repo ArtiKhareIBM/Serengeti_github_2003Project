@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+- name: ISRepoUnderProject
+  gitServerName: RAHS_Azure_Account
+  gitUrl: https://dev.azure.com/rahs/AzureRepoWorkProject/_git
+  gitUsername: rahs
+  gitBranch: master
